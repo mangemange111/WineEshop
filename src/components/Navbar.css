@@ -5,6 +5,11 @@
     padding: 1rem 2rem;
     background-color: #775253;
 }
+.nav-image {
+    height: 35px;
+    width: 30;
+    margin-left: -700px;
+}
 
 .nav-links {
     display: flex;
@@ -20,7 +25,7 @@
 }
 
 .nav-links a:hover {
-    color: #9c8686; 
+    color: black; 
 }
 
 .logo {

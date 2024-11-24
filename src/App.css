@@ -2,18 +2,8 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
-}
-
-.applayout {
-  .app {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-  }
-  
+} 
   main {
     height: 800px;
     flex: 1; /* This makes the main content take up available space */
   }
-}

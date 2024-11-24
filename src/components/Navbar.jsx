@@ -7,6 +7,7 @@ export default function Navbar() {
             <div className="logo">
                 WINERY.
             </div>
+            <img src="/navimg.webp" alt="winery logo" className="nav-image" />
             <ul className="nav-links">
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="/whites">White Wines</Link></li>
