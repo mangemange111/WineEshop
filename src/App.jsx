@@ -11,7 +11,6 @@ function App() {
 
   return (
     <>
-      <h1>Hello Magnus</h1>
       <BrowserRouter>
       <div>
         <Navbar/>
