@@ -5,3 +5,15 @@
   text-align: center;
 }
 
+.applayout {
+  .app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  main {
+    height: 1000px;
+    flex: 1; /* This makes the main content take up available space */
+  }
+}
