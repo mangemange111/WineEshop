@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <div className='applayout'>
+      <div>
         <Navbar/>
         <main>
         <Routes>
