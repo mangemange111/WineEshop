@@ -11,7 +11,7 @@
 
 .section-image {
     flex: 1;
-    max-width: 180px;
+    max-width: 170px;
     height: 400px;
     object-fit: cover;
     border-radius: 10px;
@@ -30,6 +30,7 @@
     font-size: 1.5rem;
     color: #333;
     margin-bottom: 0.5rem;
+    font-weight: bold;
 }
 
 .section-text {
