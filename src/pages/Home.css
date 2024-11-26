@@ -36,6 +36,7 @@
     font-size: 1rem;
     line-height: 1.5;
     color: black;
+    text-wrap: balance;
 }
 
 .home-container {
@@ -74,7 +75,7 @@
 }
 
 .red-wine {
-    background-color: #a45976;
+    background-color: #7a0202;
     color: white;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }

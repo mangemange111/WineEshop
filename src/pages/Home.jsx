@@ -43,7 +43,7 @@ export default function Home() {
 
             <section className="section section-reverse">
                 <img 
-                    src="/redredwine.webp" 
+                    src="/realredwine.webp" 
                     alt="Red Wine Selection" 
                     className="section-image"
                 />
