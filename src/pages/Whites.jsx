@@ -1,3 +1,8 @@
-export default function Whites() {
-    return <div>White Wines Page</div>;
+import WineCard from '../components/WineCard';
+
+
+const Whites = () => {
+ return <div>Whites wines</div>
 }
+
+export default Whites;

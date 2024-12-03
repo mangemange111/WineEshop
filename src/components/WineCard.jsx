@@ -1,0 +1,2 @@
+import '../components/WinesCard.css';
+
