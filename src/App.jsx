@@ -15,13 +15,11 @@ function App() {
       <BrowserRouter>
       <div>
         <Navbar/>
-        <main>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/whites" element={<Whites />} />
           <Route path="/reds" element={<Reds />} />
         </Routes>
-        </main>
         <Footer/>
       </div>
     </BrowserRouter>

@@ -4,10 +4,10 @@
     margin: 0 auto;
     background-color: #d1d3c4;
   }
-  .white-title {
-    color: #b3a225;
-  }
   
+  .red-title {
+    color: #7a0202;
+  }
   .wines-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));

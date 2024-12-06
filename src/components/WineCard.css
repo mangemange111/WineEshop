@@ -28,22 +28,41 @@
   }
   
   .wine-card-content {
-    padding: 16px;
+    padding: 20px;
   }
   
   .wine-card-title {
     margin: 0;
     font-size: 1.1rem;
-    color: #333;
+    color: black;
   }
   
   .wine-card-price {
     margin: 8px 0 0;
-    color: #666;
+    color: #eaaaaa;
     font-weight: bold;
   }
   .wine-card-location {
     margin: 8px 0 0;
-    color: #666;
+    color: #3a3a3a;
     font-weight: bold;
+  }
+
+  .add-to-cart-btn {
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    padding: 8px 16px;
+    background-color: #722f37; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .add-to-cart-btn:hover,
+  .add-to-cart-btn:active {
+    background-color: #591d24;
+    transform: scale(0.98);
   }

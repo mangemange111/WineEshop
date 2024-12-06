@@ -7,6 +7,8 @@ const getRandomPrice = () => {
 
 const WineCard = ({ wine }) => {
 
+  
+
   const randomPrice = React.useMemo(() => getRandomPrice(), []);
 
   return (
@@ -18,6 +20,9 @@ const WineCard = ({ wine }) => {
         <h3 className="wine-card-title">{wine.wine}</h3>
         <p className="wine-card-price">${randomPrice}</p>
         <p className="wine-card-location">{wine.location}</p>
+        <button className="add-to-cart-btn">
+          Add to Cart
+        </button>
       </div>
     </div>
   );
