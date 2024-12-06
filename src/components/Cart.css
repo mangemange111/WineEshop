@@ -1,0 +1,37 @@
+.cart-container {
+    max-width: 100%;
+    padding: 1rem;
+    background-color: #d1d3c4;
+  }
+  .cart-title {
+    color: black;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #775253;
+  }
+  
+  .cart-item img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-right: 1rem;
+  }
+  
+  .cart-item-details {
+    flex: 1;
+  }
+  
+  .cart-total {
+    text-align: right;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 2px solid #ddd;
+    color: black;
+  }
