@@ -10,13 +10,11 @@ import Cart from './components/Cart';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
       <CartProvider>
       <BrowserRouter>
-      <div>
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -25,7 +23,6 @@ function App() {
           <Route path="/cart" element={<Cart />} />
         </Routes>
         <Footer/>
-      </div>
     </BrowserRouter>
     </CartProvider>
     </>

@@ -9,7 +9,7 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="logo">WINERY.</div>
+      <div className="logo"><Link to="/">WINERY.</Link></div>
       <img src="/navimg.webp" alt="winery logo" className="nav-image" />
       <ul className="nav-links">
         <li>
