@@ -1,15 +1,14 @@
-import React from 'react';
-import './WineCard.css';
-import { useCart } from '../context/CartContext';
+import React from "react";
+import "./WineCard.css";
+import { useCart } from "../context/CartContext";
 
 const getRandomPrice = () => {
-  return (Math.random() * 500).toFixed(2); 
+  return (Math.random() * 500).toFixed(2);
 };
 
 const WineCard = ({ wine }) => {
-
   const { addToCart } = useCart();
-  
+
   const handleAddToCart = () => {
     addToCart(wine);
   };
@@ -25,7 +24,7 @@ const WineCard = ({ wine }) => {
         <h3 className="wine-card-title">{wine.wine}</h3>
         <p className="wine-card-price">${randomPrice}</p>
         <p className="wine-card-location">{wine.location}</p>
-        <button onClick={handleAddToCart}className="add-to-cart-btn">
+        <button onClick={handleAddToCart} className="add-to-cart-btn">
           Add to Cart
         </button>
       </div>

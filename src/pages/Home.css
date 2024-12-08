@@ -1,87 +1,87 @@
 .section {
-    display: flex;
-    align-items: center;
-    padding: 5rem 2rem;
-    gap: 4rem;
+  display: flex;
+  align-items: center;
+  padding: 5rem 2rem;
+  gap: 4rem;
 }
 
 .section-reverse {
-    flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .section-image {
-    flex: 1;
-    max-width: 170px;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    filter: brightness(80%);
+  flex: 1;
+  max-width: 170px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  filter: brightness(80%);
 }
 
 .section-content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .section-title {
-    font-size: 1.5rem;
-    color: #333;
-    margin-bottom: 0.5rem;
-    font-weight: bold;
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
 }
 
 .section-text {
-    font-size: 1rem;
-    line-height: 1.5;
-    color: black;
-    text-wrap: balance;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: black;
+  text-wrap: balance;
 }
 
 .home-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    gap: 2rem;
-    padding: 2rem;
-    background-color: #D1D3C4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #d1d3c4;
 }
 
 .home-container > h3 {
-    font-size: 1rem;
-    color: #775253;
-    font-weight: bolder;
-    text-transform: uppercase;
+  font-size: 1rem;
+  color: #775253;
+  font-weight: bolder;
+  text-transform: uppercase;
 }
 
 .wine-button {
-    padding: 2rem 4rem;
-    font-size: 1.5rem;
-    border: 1px solid #966f6f;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-transform: uppercase;
-    font-weight: bold;
-    width: 220px;
-    margin: 10px;
+  padding: 2rem 4rem;
+  font-size: 1.5rem;
+  border: 1px solid #966f6f;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 220px;
+  margin: 10px;
 }
 
 .white-wine {
-    background-color: #b3a225;
-    color: whitesmoke;
+  background-color: #b3a225;
+  color: whitesmoke;
 }
 
 .red-wine {
-    background-color: #7a0202;
-    color: white;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  background-color: #7a0202;
+  color: white;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .wine-button:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
 }
