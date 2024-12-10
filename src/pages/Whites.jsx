@@ -19,7 +19,7 @@ const Whites = () => {
         return response.json();
       })
       .then((data) => {
-        const winesWithPrices = data.map((wine) => ({
+        const winesWithPrices = data.map(wine => ({
           ...wine,
           price: parseFloat((Math.random() * 500).toFixed(2)),
         }));
@@ -39,16 +39,14 @@ const Whites = () => {
 
   const filterWines = () => {
     let filtered = [...wines];
-
     if (selectedCountry !== "all") {
       filtered = filtered.filter((wine) => wine.location === selectedCountry);
     }
 
     if (selectedPriceRange !== "all") {
-      const [min, max] = selectedPriceRange.split("-").map(Number);
-      filtered = filtered.filter((wine) => {
-        const price = parseFloat(wine.price);
-        return price >= min && price <= max;
+      const [min, max] = selectedPriceRange.split('-').map(Number);
+      filtered = filtered.filter(wine => {
+        return wine.price >= min && wine.price <= max;
       });
     }
 
@@ -69,7 +67,7 @@ const Whites = () => {
         countries={countries}
       />
       <div className="wines-grid">
-        {filterWines().map((wine) => (
+        {filterWines().map(wine => (
           <WineCard key={wine.id} wine={wine} />
         ))}
       </div>
