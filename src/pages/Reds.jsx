@@ -46,9 +46,9 @@ const Reds = () => {
 
     if (selectedPriceRange !== "all") {
       const [min, max] = selectedPriceRange.split("-").map(Number);
-      filtered = filtered.filter(
-        (wine) => randomPrice >= min && randomPrice <= max
-      );
+      filtered = filtered.filter((wine) => {
+        return wine.price >= min && wine.price <= max;
+      });
     }
 
     return filtered.slice(0, 9);

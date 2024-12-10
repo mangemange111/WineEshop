@@ -2,7 +2,6 @@ import React from "react";
 import "./WineCard.css";
 import { useCart } from "../context/CartContext";
 
-
 const WineCard = ({ wine }) => {
   const { addToCart } = useCart();
 
